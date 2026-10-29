@@ -1,0 +1,129 @@
+
+<meta charset="UTF-8">
+<h1>Kitchen <span>Lab</span></h1>
+<p>Meu laboratório<br><span>de receitas  <small>♡</small></p>
+<img src="personagem.png" alt="Personagem do Kitchen Lab com seu gatinho">
+
+
+<a href="#receitas" class="botao-explorar">
+  Explorar receitas <small>♡</small>
+</a>
+
+<section id="receitas">
+  <div class="organizador">
+    <img src="pastas.png" alt="Categorias de receitas">
+
+  <a href="#carnes" class="aba-carnes" aria-label="Abrir receitas de carnes"></a>
+  </div>
+</section>
+
+<section id="carnes">
+  <h2>🥩 Receitas de Carnes</h2>
+  <p>Aqui ficarão nossas receitas de carnes!</p>
+</section>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Allura";
+  src: url("Allura-Regular.ttf");
+}
+body {
+  background-color: #F2E1CE;
+  background-image: url("papel.png");
+  background-size: 600px auto;
+  background-repeat: repeat;
+  );
+}
+h1 {
+  color: #A5534F;
+font-family: "Bodoni Italic", Georgia, serif;
+  font-size: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+h1 span {
+  display: block;
+  font-family: "Allura", cursive;
+  font-style: italic;
+  font-weight: normal;
+  color: #70846C;
+  margin-top: -60px;
+  margin-left: 200px;
+  font-size: 110px;
+}
+p {
+  font-family: "Allura", cursive;
+  font-size: 32px;
+  color: #967768;
+  margin-top: -30px;
+ margin-left: 20px;
+}
+p span {
+  display: inline-block;
+  margin-left: 35px;
+}
+img {
+  width: 65%;
+  max-width: 970px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao-explorar {
+  display: block;
+  width: 300px;
+  max-width: 75%;
+  margin: 15px auto;
+  padding: 15px 20px;
+  background-color: #e6a6a3;
+  color: #49362F;
+  font-family: "Allura", cursive;
+  font-size: 38px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+}
+P span small {
+  font-size: 22px;
+}
+.botao-explorar small {
+  font-size: 22px;
+}
+#receitas {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#receitas img {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+.organizador {
+  position: relative;
+  width: 100%;
+}
+
+.organizador img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.aba-carnes {
+  position: absolute;
+  left: 15%;
+  top: 0;
+  width: 12%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+</style>

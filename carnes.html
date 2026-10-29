@@ -1,0 +1,86 @@
+<meta charset="UTF-8">
+
+<h1>🥩 Receitas de Carnes</h1>
+
+<p>Escolha o tipo de carne que deseja preparar <small>♡</small></p>
+
+<div class="categorias-imagem">
+
+  <img src="cartões.carnes.png" alt="Categorias de carnes">
+
+  <a href="#bovina" class="card-bovina" aria-label="Carne Bovina"></a>
+
+  <a href="#suina" class="card-suina" aria-label="Carne Suína"></a>
+
+  <a href="#aves" class="card-aves" aria-label="Aves"></a>
+
+</div>
+
+
+<style>
+@font-face {
+  font-family: "Rye";
+  src: url("Rye-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lavishly";
+  src: url("LavishlyRegular.ttf");
+}
+
+body {
+  background-color: #F2E1CE;
+  background-image: url("papel.png");
+  background-size: 600px auto;
+  background-repeat: repeat;
+  );
+h1 {
+  color: #A5534F;
+font-family: "Rye", serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+p {
+  font-family: "Lavishly", cursive;
+  font-size: 40px;
+  color: #967768;
+  margin-top: 0px;
+ margin-left: 10px;
+}
+P small {
+  font-size: 22px;
+}
+.categorias-imagem {
+  position: relative;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.categorias-imagem img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.categorias-imagem a {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.card-bovina {
+  left: 0;
+  width: 34%;
+}
+
+.card-suina {
+  left: 34%;
+  width: 33%;
+}
+
+.card-aves {
+  left: 67%;
+  width: 33%;
+}
+</style>
